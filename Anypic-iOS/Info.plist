@@ -58,6 +58,12 @@
 				<string>parsephoto</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>bb-undefined</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>${APP_VERSION}</string>
@@ -98,7 +104,7 @@
 				<key>Blue</key>
 				<real>0.117841511964798</real>
 				<key>Green</key>
-				<real>0.15368592739105219</real>
+				<real>0.1536859273910522</real>
 				<key>Red</key>
 				<real>0.2008436918258667</real>
 			</dict>
