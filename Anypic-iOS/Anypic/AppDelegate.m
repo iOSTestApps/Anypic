@@ -17,6 +17,7 @@
 #import "PAPWelcomeViewController.h"
 #import "PAPActivityFeedViewController.h"
 #import "PAPPhotoDetailsViewController.h"
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
 
 @interface AppDelegate () {
     BOOL firstLaunch;
@@ -39,6 +40,8 @@
 #pragma mark - UIApplicationDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [BuddyBuildSDK setup:self];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
     // ****************************************************************************
@@ -81,6 +84,9 @@
 }
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    if ([BuddyBuildSDK handleOpenURL:url]) {
+        return YES;
+    }
     BOOL wasHandled = false;
     
     if ([PFFacebookUtils session]) {
