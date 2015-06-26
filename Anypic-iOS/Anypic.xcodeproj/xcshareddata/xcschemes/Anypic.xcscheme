@@ -20,6 +20,20 @@
                ReferencedContainer = "container:Anypic.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "08E390C51B3CD5FB005A4151"
+               BuildableName = "Anypic Tests.xctest"
+               BlueprintName = "Anypic Tests"
+               ReferencedContainer = "container:Anypic.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -28,6 +42,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "08E390C51B3CD5FB005A4151"
+               BuildableName = "Anypic Tests.xctest"
+               BlueprintName = "Anypic Tests"
+               ReferencedContainer = "container:Anypic.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
