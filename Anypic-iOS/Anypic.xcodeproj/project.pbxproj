@@ -1535,6 +1535,7 @@
 				08E390D11B3CD5FB005A4151 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
 		};
 		09ABC06713A1D52D009C3FCF /* Build configuration list for PBXProject "Anypic" */ = {
 			isa = XCConfigurationList;
