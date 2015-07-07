@@ -1341,7 +1341,7 @@
 				BUNDLE_IDENTIFIER = com.BB.AnyPic;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Anypic/Anypic.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Christopher Stott (U4VNLWMUYC)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Doe Pics Hit Inc";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1361,7 +1361,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = Anypic;
-				PROVISIONING_PROFILE = "ffe10b10-26f3-4936-8a0e-db5cd8b7e073";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1391,7 +1391,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = Anypic;
-				PROVISIONING_PROFILE = "e2fd2b15-6da7-4a85-af01-1eb6c0558834";
+				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1454,7 +1454,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = Anypic;
-				PROVISIONING_PROFILE = "e2fd2b15-6da7-4a85-af01-1eb6c0558834";
+				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1517,7 +1517,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = Anypic;
-				PROVISIONING_PROFILE = "e2fd2b15-6da7-4a85-af01-1eb6c0558834";
+				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
