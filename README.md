@@ -1,6 +1,6 @@
 # Anypic
 
-Anypic is the easiest way to share photos with your friends. Get the app and share your fun photos with the world. [Anypic](https://anypic.org) is fully powered by [Parse](https://parse.com). 
+Anypic is the easiest way to share photos with your friends. Get the app and share your fun photos with the world. [Anypic](https://anypic.org) is fully powered by [Parse](https://parse.com).
 
 You can get the [source code](https://github.com/ParsePlatform/Anypic) and create your own Anypic with this [tutorial](https://parse.com/tutorials/anypic).
 
@@ -27,17 +27,18 @@ pod install
 [Parse setApplicationId:@"APPLICATION_ID" clientKey:@"CLIENT_KEY];"
 ```
 
+
 Finally, select the `Anypic` target and go to `Build Phases`. Under `Upload Symbol Files`, update line 3 to point to your Cloud Code folder, if any. If you're not using Cloud Code, feel free to remove the `Upload Symbol Files` section.
 
 #### Configuring Anypic's Facebook integration
 
 1. Set up a Facebook app at http://developers.facebook.com/apps
 
-2. Set up a URL scheme for fbFACEBOOK_APP_ID, where FACEBOOK_APP_ID is your Facebook app's id. 
+2. Set up a URL scheme for fbFACEBOOK_APP_ID, where FACEBOOK_APP_ID is your Facebook app's id.
 
 3. Add your Facebook app id to `Info.plist` in the `FacebookAppID` key.
 
-## Web Setup 
+## Web Setup
 
 The main Anypic site is at Anypic-web/index.html. The site will show the last eight photos uploaded to your Anypic app by default. You can click any of these photos to display a bigger version.
 
@@ -59,7 +60,7 @@ routes: {
   "pic/:object_id": "getPic",
   "*actions": "defaultRoute"
 }
-``` 
+```
 
 Whenever `/#pic/<object_id>` is visited, the Router will call the `getPic` function and pass along the object id for the photo that should be presented. The `getPic` function loads the photo landing page into the DOM, then obtains the photo from Parse using `Parse.Query`.
 
